@@ -1,0 +1,207 @@
+/* login */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.container-fluid {
+    padding: 0!important;
+}
+.up-header {
+    padding-right: 24px;
+}
+.nav-link {
+    color: whitesmoke!important;
+}
+.btn {
+    border-radius: 20px!important;
+}
+.up-header {
+    position: absolute;
+    z-index: 100;
+    left: 0px;
+    right: 0px;
+    margin-top: 16px;
+    background: none;
+    border-bottom: none;
+}
+
+/* content header */
+
+.header {
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-position: center center;
+    padding: 16px 0px 192px;
+}
+.logo-des {
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+.logo-des2 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+.header .logo-des .logo-des2 .logo img {
+    width: 200px;
+    height: 200px;
+}
+.logo-name {
+    font-size: 33px;
+    font-family: 'Coiny', cursive;
+    color: white;
+}
+.desc{
+    font-size: 64px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+    line-height: 76px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 22px;
+}
+
+.mr-sm-2 {
+    border-radius: 20px!important;
+}
+/* search content header */
+.search {
+    margin-top: 16px;
+}
+
+/* contents */
+
+.card-deck {
+    margin: 96px 0px;
+}
+.card {
+    border: 0px;
+}
+.card-body, .card-footer {
+    text-align: center;
+}
+.card-footer, .card-footer a {
+    background-color: #fff;
+    color: black!important;
+    border-top: 0px;
+}
+
+/* about food */
+
+.about-food2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* footer */
+
+.down {
+    background-color: rgb(25, 25, 25);
+}
+.footer {
+    margin: auto;
+    padding: 0px 20px;
+}
+.column-footer, .column-footer2 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.sub-top {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: white;
+}
+.footer3 {
+    padding: 32px 0px;
+}
+
+
+.detail-column {
+    margin-right: 24px;
+}
+.footer3 div img {
+    width: 200px;
+    height: 200px;
+}
+.wm {
+    color: #fff;
+}
+.detail-column {
+    padding-top: 16px;
+    color: whitesmoke;
+}
+.footer3 .sosmed img {
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+}
+
+@media (max-width: 1199.98px) {
+    .footer3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .language {
+        display: flex;
+        justify-content: center;
+    }
+    .footer1, .footer2, .city-top, .top-restaurant, .restaurant2, .promo1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .down, .column-footer, .sub-top {
+        text-align: center;
+    }
+    .detail-column {
+        margin: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .desc {
+        font-size: 32px;
+        font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 700;
+        line-height: 40px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 16px;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-name {
+        font-size: 25px;
+        text-align: center;
+    }
+    .search .form-inline .btn svg,
+    .search .form-inline .btn,
+    .footer3 div .down-logo {
+        display: none;
+    }
+
+    .iniwmbos {
+        font-size: 10px;
+        margin: 0;
+    }
+    .footer1, .footer2, .city-top, .top-restaurant, .restaurant2, .promo1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .down, .column-footer, .sub-top {
+        text-align: center;
+    }
+    .detail-column {
+        margin: 0;
+    }
+}
