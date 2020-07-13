@@ -130,6 +130,10 @@ a {
     width: 200px;
     height: 200px;
 }
+.footer3 div i {
+    color: #fff;
+    margin-left: 5px;
+}
 .wm {
     color: #fff;
 }
